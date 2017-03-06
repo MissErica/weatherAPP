@@ -1,0 +1,52 @@
+<!--
+
+<body>
+ <a  href ="#"> Hover Here </a>
+ <p>
+The  <b> skills </b>  and experience that students achieve at  <b> Coding Temple </b>  take them a long way. We offer small classes, so students are able to have a more one on one interaction with our teachers. Our curriculum is designed to make students feel confident and be successful in the <b> workforce </b>  once they have completed our course.
+ </p>
+  <script type = "text/javascript">
+      
+    function hovered() {
+        var elements = document.getElementsByTagName("b");
+        for(var i = 0; i < elements.length; i++) {
+            elements[i].style.backgroundColor = "yellow";
+        }
+            
+    
+    }
+    
+    
+    </script>  
+    
+</body >-->
+
+<!DOCTYPE html> 
+<html>
+    <head> 
+<meta  charset = utf -8/> 
+</head> 
+    
+<body> 
+<p>
+    <a id = "w3r" type = "text/html" hreflang = "en-us" rel = "nofollow" target = "_self" href = "http://www.w3resource.com/"> w3resource </a>
+    </p>  
+    <button   onclick = "getAttributes()"> Click here to get attributes value </button> 
+    
+    <script type="text/javascript">
+        
+        function getAttributes(){
+            console.log("getting attributes");
+            var attributes = [];
+            var nodeMap = document.getElementById("w3r").attributes;
+            for(var i = 0; i < nodeMap.length; i++) {
+               var nodeInfo = nodeMap[i].name + ":" nodeMap[i].value;
+                attributes.push(nodeInfo);
+            }
+            console.log(attributes);
+        }
+    
+    </script>
+</body>
+
+</html> 

@@ -1,0 +1,295 @@
+/* line 1, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+body {
+  background-color: #081B21;
+  font-family: 'Shrikhand', cursive;
+  color: white; }
+
+/* line 7, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+h1 {
+  font-size: 50px;
+  color: white; }
+
+/* line 11, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.custom-map {
+  height: 300px;
+  width: 100%; }
+
+/* line 16, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.jumbo-background {
+  position: relative;
+  background: url(/photos/rainbowstarynight.jpeg) center center;
+  background-size: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 250px;
+  margin-bottom: 120px; }
+
+/* line 26, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.sendus {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  margin-top: 20px; }
+
+/* line 32, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.divfile {
+  background: #13424F;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 10px ridge #888;
+  border-radius: 15px;
+  margin-top: 50px;
+  text-alight: center; }
+  /* line 42, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+  .divfile label {
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 33%; }
+
+/* line 52, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.divsubmit {
+  text-align: center;
+  color: #13424F; }
+  /* line 55, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+  .divsubmit input {
+    margin-left: 40%;
+    margin-right: 40%; }
+
+/* line 61, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.commentbox {
+  text-align: center;
+  padding: 0px 250px 0px 250px;
+  font-size: 18; }
+
+/* line 67, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+#carousel {
+  border: 10px ridge #888; }
+
+/* line 71, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.carousel-size {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 150px;
+  border: 10px ridge #888;
+  border-radius: 15px; }
+
+/* line 79, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.filechooser {
+  text-align: center; }
+
+/* line 83, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.footersize {
+  padding: 20px;
+  margin-right: 150px;
+  margin-top: 250px;
+  background-color: chocolate;
+  border-radius: 15px;
+  color: black; }
+
+/* line 92, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.formstyle {
+  margin-top: 20px;
+  text-align: left;
+  height: 100px;
+  color: black; }
+
+/* line 99, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.results {
+  margin-bottom: 200px;
+  border: 10px ridge #888;
+  border-radius: 15px;
+  text-align: center;
+  color: orange;
+  letter-spacing: 2px;
+  line-height: 40px;
+  font-size: 20px;
+  background: #1D627A;
+  margin-top: 5px; }
+  /* line 110, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+  .results button {
+    color: black;
+    height: 60px;
+    font-size: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 40px; }
+  /* line 118, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+  .results input {
+    margin-bottom: 40px;
+    height: 60px;
+    font-size: 26px;
+    letter-spacing: 1px; }
+
+/* line 127, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.tellus {
+  margin-top: 0px;
+  text-align: center;
+  color: #13424F; }
+
+/* line 133, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.formbig {
+  font-size: 24px; }
+
+/* line 137, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.field {
+  margin-top: 20px; }
+
+/* line 141, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.buttonhowsya {
+  margin-left: 50px; }
+
+/* line 147, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.enteracity {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/* line 153, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color; }
+
+/* line 166, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.hvr-fade:hover,
+.hvr-fade:focus,
+.hvr-fade:active {
+  background-color: #2098D1;
+  color: white; }
+
+/* line 173, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform; }
+
+/* line 185, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); } }
+
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); } }
+
+/* line 206, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent; }
+
+/* line 214, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.hvr-pulse-grow:hover,
+.hvr-pulse-grow:focus,
+.hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate; }
+
+/* line 229, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform; }
+
+/* line 242, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity; }
+
+/* line 261, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.hvr-float-shadow:hover,
+.hvr-float-shadow:focus,
+.hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */ }
+
+/* line 269, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.hvr-float-shadow:hover:before,
+.hvr-float-shadow:focus:before,
+.hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */ }
+
+/* line 278, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow; }
+
+/* line 290, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.hvr-glow:hover,
+.hvr-glow:focus,
+.hvr-glow:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6); }
+
+/* line 299, /Users/Erica/Desktop/weatherAPP/myStyles.scss */
+.my-weather {
+  height: 500px;
+  font-size: 30px;
+  text-align: center; }
+
+@font-face {
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf") format("truetype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg") format("svg"); }
+
+/*# sourceMappingURL=myStyles.css.map */
